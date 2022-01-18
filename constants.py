@@ -1,0 +1,13 @@
+SIZE = (1024, 768)
+cell_size_px = 5
+light_radius_px = 140
+explored_value = 64
+blocked_expose_min_px = 48
+blocked_expose_max_px = 64
+unblocked_expose_min_px = 8
+unblocked_expose_max_px = 16
+cast_light_px = 32
+light_mod_value = 400
+light_radius = int(light_radius_px // cell_size_px)
+light_radius2 = light_radius ** 2
+light_radius_px2 = light_radius_px ** 2
